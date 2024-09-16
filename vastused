@@ -1,0 +1,18 @@
+vastused:
+yl22
+
+osa 1
+SELECT SUM(price * stock_saldo) AS total_value 
+FROM d124542sd553813.books;
+
+osa 2
+SELECT MIN(price) AS cheapest_book_price
+FROM d124542sd553813.books;
+
+SELECT MAX(price) AS most_expensive_book_price
+FROM d124542sd553813.books;
+
+SELECT AVG(price) AS average_book_price
+FROM d124542sd553813.books;
+
+osa 3
